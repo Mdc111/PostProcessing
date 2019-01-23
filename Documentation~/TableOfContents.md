@@ -4,7 +4,7 @@ Unity Manual ToC
 * [Home](index)
 * [Installation](Installation)
 * [Quick-start](Quick-Start)
-* Effects
+* [Effects]()
   * [Ambient Occlusion](Ambient-Occlusion)
   * [Anti-aliasing](Anti-aliasing)
   * [Auto Exposure](Auto-Exposure)
@@ -18,7 +18,7 @@ Unity Manual ToC
   * [Motion Blur](Motion-Blur)
   * [Screen-space Reflections](Screen-space-Reflections)
   * [Vignette](Vignette)
-* Scripting
+* [Scripting]()
     * [Manipulating the Stack](Manipulating-the-Stack)
     * [Writing Custom Effects](Writing-Custom-Effects)
 * [Troubleshooting](Troubleshooting)
