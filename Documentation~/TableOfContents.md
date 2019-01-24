@@ -5,7 +5,6 @@ Unity Manual TOC
  - [Installation](Installation.md)
  - [Quick-start](Quick-Start.md)
  - [Effects]()
-	 - [Ambient Occlusion](Ambient-Occlusion.md)
 	 - [Anti-aliasing](Anti-aliasing.md)
 	 - [Auto Exposure](Auto-Exposure.md)
 	 - [Bloom](Bloom.md)
