@@ -5,6 +5,7 @@ Unity Manual TOC
  - [Installation](Installation.md)
  - [Quick-start](Quick-Start.md)
  - [Effects]()
+	 - [Bloom v2](Bloomv2.md)
 	 - [Examples](Examples.md)
 	 - [Ambient Occlusion](AmbientOcclusion.md)
 	 - [Anti-aliasing](Anti-aliasing.md)
