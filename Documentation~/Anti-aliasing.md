@@ -1,20 +1,19 @@
  
 # Anti-aliasing 
 ### What is Anti-aliasing 
- If you’re not all that familiar with PC gaming and all the graphics settings found in games’ options menus, then you’re probably wondering about the one called "anti-aliasing". You most likely turned it on at some point and not notice any difference in graphics, all the while receiving a noticeable decrease in performance. So, what is anti-aliasing and what does it even do? What types of anti-aliasing are there? We will answer all of that below! 
- The **Anti-aliasing** affect offers a set of algorithms designed to prevent aliasing and give a smoother appearance to graphics. Aliasing is an effect where lines appear jagged or have a "staircase" appearance (as displayed in the left-hand image below). This can happen if the graphics output device does not have a high enough resolution to display a straight line. **Anti-aliasing** reduces the prominence of these jagged lines by surrounding them with intermediate shades of color. Although this reduces the jagged appearance of the lines, it also makes them blurrier. ![](Images/screenshot-antialiasing_5c46f1e9b5df3b0ec8275c6a.png) The Anti-aliasing algorithms are image-based. This is very useful when traditional multisampling (as used in the Editor’s [Quality settings](https://docs.unity3d.com/Manual/class-QualitySettings.html)) is not properly supported or when working with specular-heavy PBR materials. The algorithms supplied in the post-processing stack are: 
+ If you’re not all that familiar with PC gaming and all the graphics settings found in games’ options menus, then you’re probably wondering about the one called "anti-aliasing". You most likely turned it on at some point and not notice any difference in graphics, all the while receiving a noticeable decrease in performance. So, what is anti-aliasing and what does it even do? What types of anti-aliasing are there? We will answer all of that below! The **Anti-aliasing** affect offers a set of algorithms designed to prevent aliasing and give a smoother appearance to graphics. Aliasing is an effect where lines appear jagged or have a "staircase" appearance (as displayed in the left-hand image below). This can happen if the graphics output device does not have a high enough resolution to display a straight line. **Anti-aliasing** reduces the prominence of these jagged lines by surrounding them with intermediate shades of color. Although this reduces the jagged appearance of the lines, it also makes them blurrier. ![](Images/screenshot-antialiasing_5c46f1e9b5df3b0ec8275c6a.png) The Anti-aliasing algorithms are image-based. This is very useful when traditional multisampling (as used in the Editor’s [Quality settings](https://docs.unity3d.com/Manual/class-QualitySettings.html)) is not properly supported or when working with specular-heavy PBR materials. The algorithms supplied in the post-processing stack are: 
 
 *  Fast Approximate Anti-aliasing (FXAA) 
 
 *  Subpixel Morphological Anti-aliasing (SMAA) 
 
 *  Temporal Anti-aliasing (TAA) They are set per-camera on the **Post-process Layer** component. 
-## Fastish Approximate Anti-aliasing 
+## Fast Approximate Anti-aliasing 
  **FXAA** is the cheapest technique and is recommended for mobile and other platforms that don’t support motion vectors, which are required for **TAA**. ![](Images/aa-1_5c46f1e9b5df3b0ec8275c6d.png) 
 ### Properties 
 |   Property|   Function    |
 |:---|:---| 
-|   Fast Mode :)|   A slightly lower quality but faster variant of FXAA. Highly recommended on mobile platforms. |
+|   Fast Mode|   A slightly lower quality but faster variant of FXAA. Highly recommended on mobile platforms. |
 |   Keep Alpha|   Toggle this on if you need to keep the alpha channel untouched by post-processing. Else it will use this channel to store internal data used to speed up and improve visual quality. |
 
  
