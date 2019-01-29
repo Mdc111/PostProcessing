@@ -1,16 +1,14 @@
-Unity Manual TOC
+Unity Manual ToC
 ================
-
  - [Home](index.md)
  - [Installation](Installation.md)
  - [Quick-start](Quick-Start.md)
  - [Effects]()
 	 - [Bloom v2](Bloomv2.md)
-	 - [Examples](Examples.md)
 	 - [Ambient Occlusion](AmbientOcclusion.md)
+	 - [Examples](Examples.md)
 	 - [Anti-aliasing](Anti-aliasing.md)
 	 - [Auto Exposure](Auto-Exposure.md)
-	 - [Bloom](Bloom.md)
 	 - [Chromatic Aberration](Chromatic-Aberration.md)
 	 - [Color Grading](Color-Grading.md)
 	 - [Deferred Fog](Deferred-Fog.md)
