@@ -2,8 +2,8 @@ Unity Manual TOC
 ================
 
  - [Home](index.md)
- - [Installation](Installation.md)
  - [Quick-start](Quick-Start.md)
+ - [Installation](Installation.md)
  - [Effects]()
 	 - [Bloom v2](Bloomv2.md)
 	 - [Ambient Occlusion](AmbientOcclusion.md)
