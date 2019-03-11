@@ -5,7 +5,7 @@ namespace UnityEditor.Rendering.PostProcessing
     ///     <summary>
         ///     Tells a <see cref="PostProcessEffectEditor{T}"/> class which run-time type it's an editor
         ///     for. When you make a custom editor for an effect, you need put this attribute on the editor
-        ///     class.
+        ///     class. Test Change
         ///     </summary>
         ///     <seealso cref="T:UnityEditor.Rendering.PostProcessing.PostProcessEffectEditor`1"/>
             [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
