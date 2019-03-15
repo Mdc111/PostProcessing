@@ -12,7 +12,7 @@ namespace UnityEditor.Rendering.PostProcessing
     public sealed class PostProcessEditorAttribute : Attribute
     {
         ///     <summary>
-                ///     The type that this editor can edit.
+                ///     The type that this editor can edit. test change 3
                 ///     </summary>
                         public readonly Type settingsType;
 
